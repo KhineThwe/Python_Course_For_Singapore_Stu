@@ -1,1 +1,1 @@
-# Python_Course_Singapore_Stu
+# Python_Course_For_Singapore_Stu
