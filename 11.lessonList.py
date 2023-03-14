@@ -41,26 +41,31 @@ amazon_cart = [
 amazon_cart.sort()#default ---> ascending order
 print(amazon_cart)
 
-amazon_cart.sort(reverse=True)#descending order
-print(amazon_cart)
+# amazon_cart.sort(reverse=True)#descending order
+# print(amazon_cart)
 
 #sorting list by length of the values
 def myFunc(e):#notebooks = 9 # 'sunglasses' =10#toys-->4#grapes --> 6
     return len(e)
 
-amazon_cart.sort(key=myFunc) #key = 9#amazon_cart---> [notebooks]#key = 10 ---> ['notebooks,'sunglasses']
-#key=4--> ['toys','notebooks,'sunglasses']
-#key=6 ---> ['toys','grapes','notebooks,'sunglasses']
-print(amazon_cart)
+# amazon_cart.sort(key=myFunc) #key = 9#amazon_cart---> [notebooks]#key = 10 ---> ['notebooks,'sunglasses']
+# #key=4--> ['toys','notebooks,'sunglasses']
+# #key=6 ---> ['toys','grapes','notebooks,'sunglasses']
+# print(amazon_cart)
 
 #sorting function
 sorted(amazon_cart)
+print(amazon_cart)
+sorted(amazon_cart,reverse=True)
+print(amazon_cart)
+sorted(amazon_cart,key=myFunc)
+print(amazon_cart)
 
 #copy()
-new_amazon_cart = amazon_cart.copy()
-print(new_amazon_cart)
-
-#reverse()
-amazon_cart.reverse()
-#or
-print(amazon_cart[::-1])
+# new_amazon_cart = amazon_cart.copy()
+# print(new_amazon_cart)
+#
+# #reverse()
+# amazon_cart.reverse()
+# #or
+# print(amazon_cart[::-1])
